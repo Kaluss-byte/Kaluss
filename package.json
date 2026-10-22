@@ -1,0 +1,18 @@
+{
+  "name": "association-stock",
+  "version": "1.0.0",
+  "description": "Application web de gestion du stock d'une association",
+  "type": "module",
+  "scripts": {
+    "start": "node src/web/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.4"
+  }
+}
